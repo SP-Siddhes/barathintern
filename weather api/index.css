@@ -1,0 +1,71 @@
+body{
+    background-image: url("./weather_intro_2.jpeg");
+    background-position: center;
+}
+
+.main {
+    width: 800px;
+    margin: 100px;
+    padding: 50px;
+   
+}
+
+.input {
+    padding-left: 400px;
+}
+
+.input-form {
+    border-radius: 5px;
+    height: 30px;
+    width: 200px; 
+}
+
+.button-submit {
+    color: black;
+    background-color: blue;
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    font-size:medium;
+}
+.button-submit:hover {
+    background-color: navy;
+    cursor: pointer; 
+}.output {
+    background-image: url("./sky.jpeg");
+    box-shadow: inset 0px 0px 277px 3px #f3efed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    margin: 275px;
+    height: fit-content;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 20px 40px 20px ;
+    border-radius: 20px;
+
+}
+
+.output-city {
+    background-color: rgb(40, 178, 178);
+    font-weight: bolder;
+    color:black;
+    border-radius: 20px;
+    
+    
+}
+
+.temps ,.temp ,.tempss {
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
+.Weather {
+    font-size:xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
